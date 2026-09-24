@@ -1,13 +1,5 @@
+@use "sass:color";
 // Colors of project
-
-// Brand-colors
-$primary-dark: #381d14;
-$primary-normal: #7e624a;
-$primary-light: #e2d1bf;
-
-$secondary-dark: #2ba4a0;
-$secondary-normal: #3acbc7;
-$secondary-light: #73dedb;
 
 // Neutral-colors
 $black-dark: #06090e;
@@ -15,10 +7,27 @@ $black-normal: #16191d;
 $black-light: #25282d;
 $black-lighten: #35383c;
 $black-darken: #000;
+$bg: #0c0d0d;
+$surface: #121414;
+$surface-2: #171a19;
 
 $white-dark: #d9e8fa;
 $white-normal: #ebf4ff;
 $white-light: #ffffff;
+$white-lighten: #e9ebe7;
+$muted: #969c96;
+
+// Brand-colors
+// 2. Primary Brand-colors
+$primary-normal: #b8f36b;
+$primary-light: color.mix(#ffffff, $primary-normal, 20%);
+$primary-dark: color.mix($black-dark, $primary-normal, 40%);
+$primary-normal-soft: color.change($primary-normal, $alpha: 0.1);
+
+// 3. Secondary Brand-colors
+$secondary-normal: #6bf3da;
+$secondary-light: color.mix(#ffffff, $secondary-normal, 20%);
+$secondary-dark: color.mix($black-dark, $secondary-normal, 40%);
 
 // Gray Scale
 $gray-1: #252626;
