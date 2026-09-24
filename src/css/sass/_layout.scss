@@ -1,0 +1,82 @@
+@use "../sass/colors" as *;
+@use "../sass/responsive" as *;
+
+// Layout of project
+
+@function grid($col, $total: 12) {
+  @return calc($col / $total) * 100%;
+}
+
+@for $i from 1 through 12 {
+  .grid-#{$i} {
+    width: calc(#{grid($i)} - #{$gutter});
+    margin: calc($gutter / 2);
+
+    padding: 16px 0px;
+    float: left;
+
+    @include responsive(s) {
+      width: calc(100% - #{$gutter});
+      float: none;
+    }
+  }
+}
+
+@for $i from 1 through 12 {
+  .grid-nobreak-#{$i} {
+    width: calc(#{grid($i)} - #{$gutter});
+    margin: calc($gutter / 2);
+
+    padding: 16px 0px;
+    float: left;
+  }
+}
+
+.container {
+  max-width: $container-l;
+  margin: 0 auto;
+
+  padding: 96px 24px;
+
+  // clearfix
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @include responsive(s) {
+    flex-direction: column;
+    padding: 32px 16px;
+  }
+}
+
+.container-clean {
+  max-width: $container-xl;
+  margin: 0 auto;
+
+  padding: 96px 24px;
+
+  @include responsive(s) {
+    flex-direction: column;
+    padding: 32px 16px;
+  }
+}
+
+.row {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+canvas {
+  position: absolute;
+}
+
+.disappear {
+  @include responsive(s) {
+    display: none;
+  }
+}
