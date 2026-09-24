@@ -1,22 +1,10 @@
 @use "../sass/colors" as *;
 @use "../sass/responsive" as *;
 
-// @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sintony:wght@400;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-// @font-face {
-//   font-family: "Montserrat";
-//   src: url("../font/Futurism.otf");
-// }
-
-// @font-face {
-//   font-family: "Montserrat";
-//   src: url("../font/Nebula-Regular.otf");
-// }
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap");
 
 @mixin typeface-title() {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -138,7 +126,7 @@
 }
 
 @mixin typeface-2($size: p2, $device: desktop) {
-  font-family: "Montserrat", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 

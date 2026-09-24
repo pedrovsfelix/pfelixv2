@@ -80,3 +80,116 @@ canvas {
     display: none;
   }
 }
+
+.hero-visual {
+  position: relative;
+  min-height: 500px;
+  display: grid;
+  place-items: center;
+}
+
+.hero-card {
+  position: relative;
+  width: min(100%, 500px);
+  border: 1px solid #303633;
+  background: #0e1010;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.4);
+  transform: rotate(2deg);
+
+  @include responsive(s) {
+    transform: rotate(0deg);
+  }
+}
+.terminal-top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 17px;
+  border-bottom: 1px solid $line;
+}
+.terminal-top span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #454a47;
+}
+.terminal-top small {
+  margin-left: auto;
+  color: #626863;
+  font: 11px var(--body);
+}
+pre {
+  margin: 0;
+  padding: 34px 30px;
+  overflow: auto;
+  color: #bec5bd;
+  font:
+    13px/1.9 "SFMono-Regular",
+    Consolas,
+    monospace;
+}
+.kw {
+  color: #d0a8ff;
+}
+.str {
+  color: $primary-normal;
+}
+.signal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-top: 1px solid $line;
+  letter-spacing: 0.08em;
+}
+.signal-label {
+  color: #656d67;
+}
+.signal-line {
+  flex: 1;
+  height: 1px;
+  background: $line;
+}
+.signal strong {
+  color: $primary-normal;
+}
+
+.orbit {
+  position: absolute;
+  border: 1px solid rgba(184, 243, 107, 0.12);
+  border-radius: 50%;
+}
+.orbit-one {
+  width: 520px;
+  height: 520px;
+  @include responsive(s) {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+.orbit-middle {
+  width: 24rem;
+  height: 24rem;
+  background-color: $primary-normal;
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  overflow: hidden;
+}
+
+.orbit-two {
+  width: 660px;
+  height: 660px;
+  border-color: rgba(184, 243, 107, 0.06);
+  @include responsive(s) {
+    width: 440px;
+    height: 440px;
+  }
+}
+
+@keyframes ping {
+  75%,
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

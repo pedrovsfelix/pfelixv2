@@ -15,7 +15,7 @@
 }
 
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
   max-width: 100%;
   overflow-x: clip;
 }
@@ -24,8 +24,7 @@ body {
   width: 100%;
   max-width: 100%;
   overflow-x: clip;
-  background-color: $gray-8;
-  font-family: "Montserrat", sans-serif;
+  background-color: $bg;
   color: $primary-dark;
 
   &::-webkit-scrollbar {

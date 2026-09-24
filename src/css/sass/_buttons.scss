@@ -1,0 +1,32 @@
+@use "../sass/responsive" as *;
+@use "../sass/colors" as *;
+@use "../sass/typography" as *;
+@use "../sass/spacing" as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: $gap-2;
+  min-height: $gap-5;
+  padding: 0 20px;
+  border: 1px solid $line;
+  font-size: 13px;
+  transition: 0.25s ease;
+}
+
+.button-primary {
+  background: $primary-normal;
+  color: #10120e;
+  border-color: $primary-normal;
+  font-weight: 700;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 35px rgba(184, 243, 107, 0.13);
+  }
+}
+
+.button-secondary:hover {
+  border-color: #555d58;
+  background: $surface;
+}
