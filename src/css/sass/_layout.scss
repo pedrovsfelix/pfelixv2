@@ -81,6 +81,16 @@ canvas {
   }
 }
 
+.divider {
+  border-bottom: 1px solid $line;
+}
+
+.statement {
+  border-top: 1px solid $line;
+  border-bottom: 1px solid $line;
+  background: $surface;
+}
+
 .hero-visual {
   position: relative;
   min-height: 500px;

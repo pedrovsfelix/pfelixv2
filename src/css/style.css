@@ -284,6 +284,16 @@ canvas {
   }
 }
 
+.divider {
+  border-bottom: 1px solid #292d2b;
+}
+
+.statement {
+  border-top: 1px solid #292d2b;
+  border-bottom: 1px solid #292d2b;
+  background: #121414;
+}
+
 .hero-visual {
   position: relative;
   min-height: 500px;
@@ -410,7 +420,7 @@ pre {
 }
 .h0 {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 88px;
@@ -421,7 +431,7 @@ pre {
 @media screen and (max-width: 960px) {
   .h0 {
     letter-spacing: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 40px;
@@ -432,7 +442,7 @@ pre {
 @media screen and (max-width: 620px) {
   .h0 {
     letter-spacing: 8px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 24px;
@@ -444,7 +454,7 @@ pre {
 .h0-title {
   color: rgb(112.8, 149.4, 69.8);
   letter-spacing: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 88px;
@@ -457,7 +467,7 @@ pre {
 @media screen and (max-width: 960px) {
   .h0-title {
     letter-spacing: 4px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 40px;
@@ -471,7 +481,7 @@ pre {
 @media screen and (max-width: 620px) {
   .h0-title {
     letter-spacing: 1px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 24px;
@@ -486,7 +496,7 @@ pre {
 h1 {
   color: rgb(112.8, 149.4, 69.8);
   z-index: 5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 80px;
@@ -495,7 +505,7 @@ h1 {
 }
 @media screen and (max-width: 960px) {
   h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 56px;
@@ -505,7 +515,7 @@ h1 {
 }
 @media screen and (max-width: 620px) {
   h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 48px;
@@ -518,7 +528,7 @@ h1 {
   color: rgb(112.8, 149.4, 69.8);
   z-index: 5;
   letter-spacing: 4px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 80px;
@@ -527,7 +537,7 @@ h1 {
 }
 @media screen and (max-width: 960px) {
   .title-hero {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 56px;
@@ -537,7 +547,7 @@ h1 {
 }
 @media screen and (max-width: 620px) {
   .title-hero {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 48px;
@@ -548,7 +558,7 @@ h1 {
 
 h2 {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 72px;
@@ -557,7 +567,7 @@ h2 {
 }
 @media screen and (max-width: 960px) {
   h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 48px;
@@ -567,7 +577,7 @@ h2 {
 }
 @media screen and (max-width: 620px) {
   h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 32px;
@@ -578,7 +588,7 @@ h2 {
 
 h3 {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 52px;
@@ -587,7 +597,7 @@ h3 {
 }
 @media screen and (max-width: 960px) {
   h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 32px;
@@ -597,7 +607,7 @@ h3 {
 }
 @media screen and (max-width: 620px) {
   h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 24px;
@@ -608,7 +618,7 @@ h3 {
 
 h4 {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 32px;
@@ -617,7 +627,7 @@ h4 {
 }
 @media screen and (max-width: 960px) {
   h4 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 24px;
@@ -627,7 +637,7 @@ h4 {
 }
 @media screen and (max-width: 620px) {
   h4 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 20px;
@@ -638,7 +648,7 @@ h4 {
 
 h5 {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 24px;
@@ -647,7 +657,7 @@ h5 {
 }
 @media screen and (max-width: 960px) {
   h5 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 20px;
@@ -658,7 +668,7 @@ h5 {
 
 h6 {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 18px;
@@ -667,7 +677,7 @@ h6 {
 }
 @media screen and (max-width: 960px) {
   h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 16px;
@@ -678,7 +688,7 @@ h6 {
 
 .h7 {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 16px;
@@ -687,7 +697,7 @@ h6 {
 }
 @media screen and (max-width: 960px) {
   .h7 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 16px;
@@ -698,7 +708,7 @@ h6 {
 
 .h8 {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 14px;
@@ -707,7 +717,7 @@ h6 {
 }
 @media screen and (max-width: 960px) {
   .h8 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 14px;
@@ -897,7 +907,7 @@ span {
   color: #ebf4ff;
   letter-spacing: 1px;
   text-transform: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 80px;
@@ -906,7 +916,7 @@ span {
 }
 @media screen and (max-width: 960px) {
   .letter-h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 56px;
@@ -954,7 +964,7 @@ b {
 .h-xl {
   color: #d9e8fa;
   font-size: 240px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 88px;
@@ -964,7 +974,7 @@ b {
 @media screen and (max-width: 960px) {
   .h-xl {
     font-size: 144px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 40px;
@@ -976,7 +986,7 @@ b {
 .h-l {
   color: #d9e8fa;
   font-size: 144px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 88px;
@@ -986,7 +996,7 @@ b {
 @media screen and (max-width: 960px) {
   .h-l {
     font-size: 96px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 40px;
@@ -997,7 +1007,7 @@ b {
 
 .hbig {
   color: rgb(112.8, 149.4, 69.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 80px;
@@ -1006,7 +1016,7 @@ b {
 }
 @media screen and (max-width: 960px) {
   .hbig {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 56px;
