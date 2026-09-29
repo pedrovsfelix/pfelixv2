@@ -83,6 +83,7 @@ canvas {
 
 .divider {
   border-bottom: 1px solid $line;
+  display: block;
 }
 
 .statement {
@@ -201,5 +202,16 @@ pre {
   to {
     transform: scale(2);
     opacity: 0;
+  }
+}
+
+.project {
+  padding: 0px;
+  transition: 0.5s ease;
+  border-bottom: 1px solid $line;
+
+  &:hover {
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }

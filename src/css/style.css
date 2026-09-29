@@ -286,6 +286,7 @@ canvas {
 
 .divider {
   border-bottom: 1px solid #292d2b;
+  display: block;
 }
 
 .statement {
@@ -418,8 +419,18 @@ pre {
     opacity: 0;
   }
 }
+.project {
+  padding: 0px;
+  transition: 0.5s ease;
+  border-bottom: 1px solid #292d2b;
+}
+.project:hover {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .h0 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -452,7 +463,7 @@ pre {
 }
 
 .h0-title {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   letter-spacing: 18px;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -494,7 +505,7 @@ pre {
 }
 
 h1 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   z-index: 5;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -525,7 +536,7 @@ h1 {
 }
 
 .title-hero {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   z-index: 5;
   letter-spacing: 4px;
   font-family: "Space Grotesk", sans-serif;
@@ -557,7 +568,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -587,7 +598,7 @@ h2 {
 }
 
 h3 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -617,7 +628,7 @@ h3 {
 }
 
 h4 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -647,7 +658,7 @@ h4 {
 }
 
 h5 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -667,7 +678,7 @@ h5 {
 }
 
 h6 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -687,7 +698,7 @@ h6 {
 }
 
 .h7 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -707,7 +718,7 @@ h6 {
 }
 
 .h8 {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -728,7 +739,7 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -882,7 +893,7 @@ p {
 
 .bold-dark {
   font-weight: bold;
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
 }
 
 span,
@@ -892,15 +903,16 @@ small,
 em,
 label {
   font-family: "Montserrat", sans-serif;
-  color: rgb(112.8, 149.4, 69.8);
+  color: #e9ebe7;
 }
 
 i {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
 }
 
 span {
   display: inline-block;
+  color: #b8f36b;
 }
 
 .letter-h1 {
@@ -926,7 +938,7 @@ span {
 }
 
 strong {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -946,7 +958,7 @@ strong {
 }
 
 b {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
 }
 
 .text-center {
@@ -1006,7 +1018,7 @@ b {
 }
 
 .hbig {
-  color: rgb(112.8, 149.4, 69.8);
+  color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -1062,7 +1074,7 @@ b {
 }
 
 .bg-primary {
-  background-color: rgb(112.8, 149.4, 69.8);
+  background-color: #ffffff;
 }
 
 .bg-black {
@@ -1186,7 +1198,7 @@ b {
   }
 }
 .bg-gradient {
-  background: linear-gradient(224.78deg, rgb(112.8, 149.4, 69.8) 8.12%, rgb(66.6, 149.4, 136.4) 92.21%);
+  background: linear-gradient(224.78deg, #ffffff 8.12%, rgb(66.6, 149.4, 136.4) 92.21%);
 }
 
 .label {
@@ -1931,7 +1943,6 @@ body {
   max-width: 100%;
   overflow-x: clip;
   background-color: #0c0d0d;
-  color: rgb(112.8, 149.4, 69.8);
 }
 body::-webkit-scrollbar {
   padding-right: 0px;

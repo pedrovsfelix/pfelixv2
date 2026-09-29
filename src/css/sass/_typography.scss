@@ -182,7 +182,7 @@
 }
 
 .h0 {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(h0, desktop);
   letter-spacing: 20px;
 
@@ -198,7 +198,7 @@
 }
 
 .h0-title {
-  color: $primary-dark;
+  color: $white-light;
   letter-spacing: 18px;
 
   @include typeface-1(h0, desktop);
@@ -218,7 +218,7 @@
 }
 
 h1 {
-  color: $primary-dark;
+  color: $white-light;
   z-index: 5;
   @include typeface-1(h1, desktop);
   @include responsive(s) {
@@ -230,7 +230,7 @@ h1 {
 }
 
 .title-hero {
-  color: $primary-dark;
+  color: $white-light;
   z-index: 5;
   letter-spacing: 4px;
 
@@ -244,7 +244,7 @@ h1 {
 }
 
 h2 {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(h2, desktop);
   @include responsive(s) {
     @include typeface-1(h2, mobile);
@@ -255,7 +255,7 @@ h2 {
 }
 
 h3 {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(h3, desktop);
   @include responsive(s) {
     @include typeface-1(h3, mobile);
@@ -266,7 +266,7 @@ h3 {
 }
 
 h4 {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(h4, desktop);
   @include responsive(s) {
     @include typeface-1(h4, mobile);
@@ -277,7 +277,7 @@ h4 {
 }
 
 h5 {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(h5, desktop);
   @include responsive(s) {
     @include typeface-1(h5, mobile);
@@ -285,7 +285,7 @@ h5 {
 }
 
 h6 {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(h6, desktop);
   @include responsive(s) {
     @include typeface-1(h6, mobile);
@@ -293,7 +293,7 @@ h6 {
 }
 
 .h7 {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(h7, desktop);
   @include responsive(s) {
     @include typeface-1(h7, mobile);
@@ -301,7 +301,7 @@ h6 {
 }
 
 .h8 {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(h8, desktop);
   @include responsive(s) {
     @include typeface-1(h8, mobile);
@@ -310,7 +310,7 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-2(p3, desktop);
   @include responsive(s) {
     @include typeface-2(p3, mobile);
@@ -378,7 +378,7 @@ p {
 
 .bold-dark {
   font-weight: bold;
-  color: $primary-dark;
+  color: $white-light;
 }
 
 span,
@@ -388,15 +388,16 @@ small,
 em,
 label {
   font-family: "Montserrat", sans-serif;
-  color: $primary-dark;
+  color: $white-lighten;
 }
 
 i {
-  color: $primary-dark;
+  color: $white-light;
 }
 
 span {
   display: inline-block;
+  color: $primary-normal;
 }
 
 .letter-h1 {
@@ -410,7 +411,7 @@ span {
 }
 
 strong {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-2(p2, desktop);
   @include responsive(s) {
     @include typeface-2(p2, mobile);
@@ -418,7 +419,7 @@ strong {
 }
 
 b {
-  color: $primary-dark;
+  color: $white-light;
 }
 
 .text-center {
@@ -457,7 +458,7 @@ b {
 }
 
 .hbig {
-  color: $primary-dark;
+  color: $white-light;
   @include typeface-1(hbig, desktop);
   @include responsive(s) {
     @include typeface-1(hbig, mobile);
@@ -503,7 +504,7 @@ b {
 }
 
 .bg-primary {
-  background-color: $primary-dark;
+  background-color: $white-light;
 }
 
 .bg-black {
@@ -666,7 +667,7 @@ b {
 .bg-gradient {
   background: linear-gradient(
     224.78deg,
-    $primary-dark 8.12%,
+    $white-light 8.12%,
     $secondary-dark 92.21%
   );
 }
